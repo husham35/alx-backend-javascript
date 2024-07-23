@@ -1,5 +1,4 @@
 /* Rewrite the getBudgetForCurrentYear function to use ES6 computed property names on the budget object */
-
 // previous function
 // function getCurrentYear() {
 //   const date = new Date();
@@ -15,7 +14,6 @@
 
 //   return budget;
 // }
-
 function getCurrentYear () {
 	const date = new Date();
 	return date.getFullYear();

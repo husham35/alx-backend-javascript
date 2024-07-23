@@ -1,5 +1,4 @@
 /* Rewrite the following standard function to use ES6’s arrow syntax of the function add (it will be an anonymous function after) */
-
 export default function getNeighborhoodsList () {
 	this.sanFranciscoNeighborhoods = ['SOMA', 'Union Square'];
 
