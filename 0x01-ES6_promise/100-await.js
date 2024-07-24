@@ -1,4 +1,4 @@
-import { uploadPhoto, createUser } from './utils'
+import { uploadPhoto, createUser } from './utils';
 
 export default async function asyncUploadUser() {
   try {
@@ -7,6 +7,6 @@ export default async function asyncUploadUser() {
       user: await createUser(),
     };
   } catch (_) {
-    return { photo: null, user: null};
+    return { photo: null, user: null };
   }
 }
