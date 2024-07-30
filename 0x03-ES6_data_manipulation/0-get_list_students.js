@@ -5,9 +5,9 @@ export default function getListStudents() {
     location,
   });
 
-  return[
+  return [
     addStudent(1, 'Guillaume', 'San Francisco'),
     addStudent(2, 'James', 'Columbia'),
     addStudent(5, 'Serena', 'San Francisco'),
-  ]
+  ];
 }
