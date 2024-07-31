@@ -5,8 +5,7 @@ namespace Subject {
 
   export const cTeacher: Teacher =
   {
-    "test",
-    "test",
-    10
+    firstName: "Hamza",
+    lastName: "Husein",
   }
 }
