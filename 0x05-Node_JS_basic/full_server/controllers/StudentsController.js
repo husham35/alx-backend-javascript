@@ -1,7 +1,7 @@
 const readDatabase = require('../utils');
 
 class StudentsController {
-  static getAllStudents(req, res) {
+  static getAllStudents (req, res) {
     readDatabase(process.argv[2].toString()).then((students) => {
       const output = [];
       output.push('This is the list of our students');
@@ -16,7 +16,7 @@ class StudentsController {
     });
   }
 
-  static getAllStudentsByMajor(req, res) {
+  static getAllStudentsByMajor (req, res) {
     const field = req.params.major;
     readDatabase(process.argv[2].toString()).then((students) => {
       if (!(field in students)) {

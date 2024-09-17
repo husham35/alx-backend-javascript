@@ -1,7 +1,7 @@
 // 2. Reading a file synchronously with Node JS
 const fs = require('fs');
 
-function countStudents(fileName) {
+function countStudents (fileName) {
   const students = {};
   const fields = {};
   let length = 0;

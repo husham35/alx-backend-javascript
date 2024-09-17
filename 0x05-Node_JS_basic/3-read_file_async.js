@@ -1,7 +1,7 @@
 // 3. Reading a file asynchronously with Node JS
 const { readFile } = require('fs');
 
-function countStudents(fileName) {
+function countStudents (fileName) {
   const students = {};
   const fields = {};
   let length = 0;
