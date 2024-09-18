@@ -2,10 +2,9 @@ const request = require('request');
 const { describe, it } = require('mocha');
 const expect = require('chai').expect;
 
-PORT = 7865;
 describe('Index page', function () {
   const options = {
-    url: `http://localhost:{$PORT}/`,
+    url: 'http://localhost:7865/',
     method: 'GET'
   };
   it('check correct status code', function (done) {
